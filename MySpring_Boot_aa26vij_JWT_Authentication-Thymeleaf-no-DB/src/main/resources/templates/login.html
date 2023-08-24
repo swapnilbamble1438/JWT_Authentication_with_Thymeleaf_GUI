@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<section class = "center">
+	
+<form th:action = "@{/token}" method = "post">
+
+<h1>Login</h1>
+
+	<div th:if=${session.msg}>
+		
+		<h5 th:text="${session.msg}" style="color:red"></h5>
+   		
+		<th:block th:text="${#session.removeAttribute('msg')}"></th:block>
+	
+   	</div>
+			
+
+Username: <input type = "text" name = "username" placeholder="Enter Your Email Id" required><br><br>
+
+Password: <input type = "password" name= "password" placeholder="Enter Your Password" required><br><br>
+
+<input type = "submit" value="Login">
+
+</form>
+
+
+
+	<br>	
+	</section>
+</body>
+</html>

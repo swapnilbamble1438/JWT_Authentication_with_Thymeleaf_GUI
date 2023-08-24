@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{user/base::layout(~{::section})}">
+<head>
+	<meta charset="UTF-8" />
+	
+	
+
+
+<title>Document</title>
+</head>
+<body>
+	<section class = "center">
+	
+
+
+<h1>User Details</h1>
+		
+	<h3>Id: <span th:text="${user.id}"></span></h3>
+	<h3>Username: <span th:text="${user.username}"></span></h3>
+	<h3>Password: <span th:text="${user.password}"></span></h3>
+	<h3>Role: <span th:text="${user.role}"></span></h3>
+	<h3>Enabled: <span th:text="${user.enabled}"></span></h3>
+	 
+	 <p>Token : <span  th:text="${token}"></span></p>
+	 
+	  
+
+	<br>	
+	</section>
+</body>
+</html>
