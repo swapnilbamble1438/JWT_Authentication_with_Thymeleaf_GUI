@@ -24,23 +24,14 @@
   -> Next
 -  Now in Local Destination
 
--  if it is not showing any error then proceed -> Next
+  - proceed -> Next
 
             Now only select JWT_Authentication_with_Thymeleaf_GUI\JWT_Authentication_with_Thymeleaf_GUI
             -> Finish
   
- -  else if it is showing error, means there is already a project with same name exist.
-        then change the Directory: like if it is
-
-           C:\Users\Swapnil\git\JWT_Authentication_with_Thymeleaf_GUI
-   
-           then change it to 
-   
-           C:\Users\Swapnil\git\JWT_Authentication_with_Thymeleaf_GUI_New
-   
           -> Next
 
-            Now only select JWT_Authentication_with_Thymeleaf_GUI_New\JWT_Authentication_with_Thymeleaf_GUI 
+            Now only select JWT_Authentication_with_Thymeleaf_GUI\JWT_Authentication_with_Thymeleaf_GUI 
             -> Finish
    
 -  If everything goes right Project will get successfully imported
