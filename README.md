@@ -28,11 +28,6 @@
 
             Now only select JWT_Authentication_with_Thymeleaf_GUI\JWT_Authentication_with_Thymeleaf_GUI
             -> Finish
-  
-          -> Next
-
-            Now only select JWT_Authentication_with_Thymeleaf_GUI\JWT_Authentication_with_Thymeleaf_GUI 
-            -> Finish
    
 -  If everything goes right Project will get successfully imported
 -  Now wait for few seconds for getting things properly loaded
