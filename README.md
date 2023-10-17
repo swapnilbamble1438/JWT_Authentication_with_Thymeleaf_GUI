@@ -1,4 +1,7 @@
 # JWT Authentication with Thymeleaf GUI
+- It shows the working of JWT Token Authentication.
+- No database has been used. You can simply import the project and you dont need to do any configuration.
+
 ### It is SpringBoot Project. Build in Spring Tool Suite.
 
 ### Technology used in this Project: 
